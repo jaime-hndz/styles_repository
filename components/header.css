@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001529;
+    padding: 0 16px;
+  }
+  
+  .header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: none;
+  }
+  
+  .header-user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-user-name {
+    margin-left: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .ant-avatar {
+    margin-right: 8px;
+  }
+  
+  .ant-btn-text {
+    color: #fff;
+  }
+  
+  .ant-btn-text:hover {
+    color: #1890ff;
+    background-color: transparent;
+  }
+  
+  .anticon-logout {
+    color: #fff;
+  }
+  
+  .anticon-logout:hover {
+    color: #1890ff;
+  }
