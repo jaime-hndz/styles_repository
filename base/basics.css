@@ -1,3 +1,12 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    place-content: center;
+    width: 100%;
+  }
+
 
 .out-in {
     animation: fadeInAnimation ease 3s;
@@ -12,4 +21,69 @@
     100% {
         opacity: 1;
      }
+}
+
+.left-square{
+    position: fixed;
+    border-radius: 120px;
+    transform: rotate(60deg);
+    margin-top: 55em;
+    margin-left: -10em;
+    background-image: linear-gradient(195deg, #0a63d1 , #a4dce7);
+    width: 30em;
+    height: 30em;
+  }
+  .right-square{
+    position: fixed;
+    border-radius: 120px;
+    transform: rotate(30deg);
+    margin-bottom: 60em;
+    margin-left: 90em;
+    background-image: linear-gradient(85deg, #0a63d1 , #a4dce7);
+    width: 30em;
+    height: 30em;
+  }
+  
+  @media (max-width: 767px){
+    .left-square{
+      margin-top: 55em;
+      margin-left: -10em;
+    }
+  
+    .right-square{
+      margin-bottom: 60em;
+      margin-left: 40em;
+    }
+  }
+  
+  @media (max-width: 490px){
+    .left-square{
+      margin-top: 55em;
+      margin-left: -10em;
+    }
+  
+    .right-square{
+      margin-bottom: 50em;
+      margin-left: 20em;
+    }
+  }
+
+.container {
+    display: flex;
+    height: fit-content;
+    margin: 0 auto;
+    width: 1280px;
+}
+@media (max-width: 1280px) {
+    .container {
+        flex-direction: column;
+        height: 630px;
+        width: 320px;
+        margin: 250px 32%;
+    }
+}
+@media (max-width: 490px) {
+    .container {
+        margin: 200px 10%;
+    }
 }

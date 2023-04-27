@@ -8,3 +8,11 @@ html, body {
 button{
     cursor: pointer;
 }
+label {
+    color:  #919099;
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
