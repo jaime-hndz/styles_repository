@@ -2,7 +2,13 @@
     width: 100px
 }
 
-
+.general-layout{
+  min-height: 100vh !important;
+}
+.content-layout{
+  margin: 0 16px;
+  padding: 24px;
+}
 
 .navbar {
     display: flex;
