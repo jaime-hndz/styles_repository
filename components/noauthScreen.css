@@ -1,0 +1,24 @@
+.no-auth-container {
+  padding: 20px;
+  max-width: 300px;
+}
+
+.no-auth-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: justify;
+  color: #000;
+}
+
+
+.noauth-img-container{
+  background-image: url("../../resources/images/login.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  border-top-right-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
+  width: 100%;
+  margin: 0;
+}

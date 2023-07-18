@@ -3,7 +3,8 @@
 
 @import './base/basics.css';
 
-@import './components/_loginScreen.css';
+@import './components/loginScreen.css';
+@import './components/noauthScreen.css';
 @import './components/layout.css';
 @import './components/datatable.css';
 
